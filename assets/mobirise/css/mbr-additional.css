@@ -2639,3 +2639,35 @@ a {
 .cid-uUe64edm8L .social-list {
   color: #ffffff;
 }
+
+/* Homepage positioning sections; reuse the site's typography, grid and buttons. */
+.homepage-positioning {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #edefeb;
+  color: #000000;
+}
+.homepage-positioning .content-head {
+  max-width: 800px;
+}
+.homepage-positioning .mbr-section-title {
+  color: #000000;
+}
+.homepage-positioning p,
+.homepage-positioning li:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+.homepage-together {
+  background-color: #ffffff;
+}
+#homepage-concerns .concerns-hide,
+#homepage-concerns [aria-expanded="true"] .concerns-show {
+  display: none;
+}
+#homepage-concerns [aria-expanded="true"] .concerns-hide {
+  display: inline;
+}
+#homepage-concerns button:focus-visible {
+  outline: 2px solid #2e481a;
+  outline-offset: 4px;
+}
